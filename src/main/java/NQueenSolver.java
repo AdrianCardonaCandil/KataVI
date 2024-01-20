@@ -36,10 +36,8 @@ public class NQueenSolver {
     }
 
     private void backtracking_dfs(int level){
-
         if (!checkCurrent(level)) return;
         if (level == num_queens) addValidSolution(current_solution);
-
         else {
             if (alreadyDefined.contains(level)) {backtracking_dfs(level + 1);
             } else {
