@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d389878-52d0-46a8-8fd9-1c7aed0d6928" name="Changes" comment="Third Simplified Version">
+    <list default="true" id="7d389878-52d0-46a8-8fd9-1c7aed0d6928" name="Changes" comment="Fifth Simplified Version">
+      <change afterPath="$PROJECT_DIR$/src/main/java/source/NQueenBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TestBundle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NQueenSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NQueenBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NQueenBoard.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataVI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestBundle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBundle" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +87,7 @@
       <workItem from="1705706306494" duration="147000" />
       <workItem from="1705708069886" duration="56000" />
       <workItem from="1705708157999" duration="82000" />
-      <workItem from="1705708257184" duration="16537000" />
+      <workItem from="1705708257184" duration="35020000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit (Normal Backtracking Done)">
       <option name="closed" value="true" />
@@ -113,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705725614080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fourth Simplified Version">
+      <option name="closed" value="true" />
+      <created>1705727397540</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705727397541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fifth Simplified Version">
+      <option name="closed" value="true" />
+      <created>1705770951816</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705770951816</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +177,8 @@
     <MESSAGE value="First Simplified Version" />
     <MESSAGE value="Second Simplified Version" />
     <MESSAGE value="Third Simplified Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third Simplified Version" />
+    <MESSAGE value="Fourth Simplified Version" />
+    <MESSAGE value="Fifth Simplified Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth Simplified Version" />
   </component>
 </project>
