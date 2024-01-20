@@ -4,20 +4,22 @@ import java.util.stream.IntStream;
 
 public class NQueenSolver {
 
-    private ArrayList<ArrayList<Integer>> solutions;
+    private final ArrayList<ArrayList<Integer>> solutions = new ArrayList<>();
     private ArrayList<Integer> current_solution;
     private ArrayList<Integer> alreadyDefined;
     private int num_queens;
 
     public ArrayList<ArrayList<Integer>> solve(ArrayList<Integer> incompleteList){
-
-        num_queens = incompleteList.size();
-        solutions = new ArrayList<>();
-        current_solution = new ArrayList<>(incompleteList);
-        alreadyDefined = getDefinedIndexes();
+        initConfiguration(incompleteList);
 
         backtracking_dfs(0);
         return solutions;
+    }
+
+    private void initConfiguration(ArrayList<Integer> incompleteList) {
+        current_solution = new ArrayList<>(incompleteList);
+        alreadyDefined = getDefinedIndexes();
+        num_queens = incompleteList.size();
     }
 
     private ArrayList<Integer> getDefinedIndexes() {
@@ -35,18 +37,30 @@ public class NQueenSolver {
 
     private void backtracking_dfs(int level){
 
-        if (!isValidCombination(current_solution, level)) return;
-        if (level == num_queens) solutions.add(new ArrayList<>(current_solution));
+        if (!checkCurrent(level)) return;
+        if (level == num_queens) addValidSolution(current_solution);
 
         else {
             if (alreadyDefined.contains(level)) {backtracking_dfs(level + 1);
             } else {
-                IntStream.range(0, num_queens).forEach(i -> {
-                    current_solution.set(level, i);
-                    backtracking_dfs(level + 1);
-                });
-                current_solution.set(level, -1);
+                buildCandidate(level);
             }
         }
+    }
+
+    private void addValidSolution(ArrayList<Integer> current_solution){
+        solutions.add(new ArrayList<>(current_solution));
+    }
+
+    private boolean checkCurrent(int level) {
+        return isValidCombination(current_solution, level);
+    }
+
+    public void buildCandidate(int level){
+        IntStream.range(0, num_queens).forEach(i -> {
+            current_solution.set(level, i);
+            backtracking_dfs(level + 1);
+        });
+        current_solution.set(level, -1);
     }
 }
