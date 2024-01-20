@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        String[] first_line = new Scanner(System.in).nextLine().split(" ");
-        int num_queens = Integer.parseInt(first_line[0]);
-
-        ArrayList<ArrayList<Integer>> solutions = Solve.solve(num_queens);
+        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(2, -1, 3, -1));
+        ArrayList<ArrayList<Integer>> solutions = Solve.solve(arrayList);
         for (ArrayList<Integer> solution : solutions){
             System.out.println(solution);
         }
+
     }
 }
