@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(2, -1, 3, -1));
-        ArrayList<ArrayList<Integer>> solutions = Solve.solve(arrayList);
+        ArrayList<ArrayList<Integer>> solutions = new NQueenSolver().solve(arrayList);
         for (ArrayList<Integer> solution : solutions){
             System.out.println(solution);
         }

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d389878-52d0-46a8-8fd9-1c7aed0d6928" name="Changes" comment="IncompleteList implemented, First Functional Version">
+    <list default="true" id="7d389878-52d0-46a8-8fd9-1c7aed0d6928" name="Changes" comment="Little change in solve dfs function">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NQueenSolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -61,7 +65,7 @@
       <workItem from="1705706306494" duration="147000" />
       <workItem from="1705708069886" duration="56000" />
       <workItem from="1705708157999" duration="82000" />
-      <workItem from="1705708257184" duration="7890000" />
+      <workItem from="1705708257184" duration="12694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit (Normal Backtracking Done)">
       <option name="closed" value="true" />
@@ -79,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705718164951</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Little change in solve dfs function">
+      <option name="closed" value="true" />
+      <created>1705718295272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705718295272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit (Normal Backtracking Done)" />
     <MESSAGE value="IncompleteList implemented, First Functional Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="IncompleteList implemented, First Functional Version" />
+    <MESSAGE value="Little change in solve dfs function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Little change in solve dfs function" />
   </component>
 </project>
