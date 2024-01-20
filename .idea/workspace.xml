@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d389878-52d0-46a8-8fd9-1c7aed0d6928" name="Changes" comment="Initial Commit (Normal Backtracking Done)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7d389878-52d0-46a8-8fd9-1c7aed0d6928" name="Changes" comment="IncompleteList implemented, First Functional Version">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solve.java" afterDir="false" />
     </list>
@@ -62,7 +61,7 @@
       <workItem from="1705706306494" duration="147000" />
       <workItem from="1705708069886" duration="56000" />
       <workItem from="1705708157999" duration="82000" />
-      <workItem from="1705708257184" duration="7508000" />
+      <workItem from="1705708257184" duration="7890000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit (Normal Backtracking Done)">
       <option name="closed" value="true" />
@@ -72,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705713333765</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IncompleteList implemented, First Functional Version">
+      <option name="closed" value="true" />
+      <created>1705718164951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705718164951</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,17 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit (Normal Backtracking Done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit (Normal Backtracking Done)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="IncompleteList implemented, First Functional Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="IncompleteList implemented, First Functional Version" />
   </component>
 </project>

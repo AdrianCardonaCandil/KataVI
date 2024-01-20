@@ -36,7 +36,6 @@ public class Solve {
         return true;
     }
 
-
     private static void backtracking_dfs(int level){
 
         if (!checkSolution(current_solution, level)){
@@ -48,7 +47,7 @@ public class Solve {
         }
         else {
             if (alreadyDefined.contains(level)){
-                backtracking_dfs(level += 1);
+                backtracking_dfs(level + 1);
             } else {
                 for (int i = 0; i < num_q; i++){
                     current_solution.set(level, i);
